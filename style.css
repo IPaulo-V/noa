@@ -27,17 +27,17 @@ h1, h2, h3 {
 /* Mickey – DESKTOP position */
 .mickey-left, .mickey-right {
     position: absolute; /* Posicionado em relação ao rodapé */
-    bottom: 100%;       /* Começa no topo do rodapé */
+    bottom: calc(100% - 10px); /* Move 10px para dentro do rodapé */
     width: 150px;       /* Fixed width for better control */
     height: auto;
 }
 
 .mickey-left {
-    left: 20px;
+    left: 7px;
 }
 
 .mickey-right {
-    right: 20px;
+    right: 7px;
 }
 
 @media (max-width: 900px) {
@@ -50,15 +50,15 @@ h1, h2, h3 {
     /* Move Mickey higher and shrink images */
     .mickey-left, .mickey-right {
         width: 120px; /* Um pouco menor para telas de celular */
-        bottom: 100%; /* Começa no topo do rodapé */
+        bottom: calc(100% - 10px); /* Move 10px para dentro do rodapé */
     }
 
     .mickey-left {
-        left: 10px;
+        left: 7px;
     }
 
     .mickey-right {
-        right: 10px;
+        right: 7px;
     }
 
     /* Optional: background scroll better on mobile */
