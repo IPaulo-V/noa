@@ -49,7 +49,8 @@ h1, h2, h3 {
 
     /* Move Mickey higher and shrink images */
     .mickey-left, .mickey-right {
-        top: 381px;     /* Ajuste especial para celular */
+        top: 380px; 
+        bottom: 3px;     /* Ajuste especial para celular */
         width: 35%;     /* Maior porque a tela é estreita */
     }
 
