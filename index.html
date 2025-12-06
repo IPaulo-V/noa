@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Digital Moderno</title>
+    <!-- Carrega o Tailwind CSS para estilização fácil e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carrega a fonte 'Playfair Display' para um toque elegante -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="convite-fundo min-h-screen flex flex-col justify-between">
+
+    <!-- Conteúdo Principal do Convite -->
+    <main class="flex-grow flex items-center justify-center p-4">
+        <div class="card-convite w-full max-w-3xl p-8 md:p-12 rounded-lg shadow-xl text-center">
+
+            <img src="img/mickey2.png" alt="Mickey" class="mickey-left">
+            <img src="img/mickey.png" alt="Mickey" class="mickey-right">
+
+            <!-- Título do Convite -->
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Celebre Conosco!</h1>
+            
+            <!-- Texto Genérico Central -->
+            <div class="text-gray-600 space-y-4 text-base md:text-lg leading-relaxed">
+                <p>
+                    Temos a honra de convidar você para um evento muito especial, onde celebraremos a vida, a alegria e os bons momentos.
+                </p>
+                <p>
+                    Sua presença é fundamental para tornar este dia ainda mais memorável. Prepare-se para uma noite de muita felicidade e companheirismo.
+                </p>
+                <p class="font-semibold text-gray-700 mt-4">
+                    Data: Sábado, 20 de Julho de 2025<br>
+                    Horário: 20:00h
+                </p>
+            </div>
+
+            <!-- Chamada para Ação -->
+            <p class="mt-8 text-xl font-bold text-gray-800 animate-pulse">
+                Esperamos por você!
+            </p>
+        </div>
+    </main>
+
+    <!-- Rodapé com Botões de Ação -->
+    <footer class="w-full bg-gray-900/80 text-white p-4 shadow-lg backdrop-filter backdrop-blur-lg">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+            
+            <!-- Botão de Endereço (Inferior Esquerdo) -->
+            <div class="flex flex-col items-center w-full md:w-auto">
+                <!-- Substitua o "#" pelo link real para o mapa -->
+                <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center px-6 py-2 border border-gray-400 text-sm font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-gray-700 transition-colors duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                >
+                    <svg class="mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    Ver Endereço
+                </a>
+            </div>
+
+            <!-- Texto Central -->
+            <div class="text-center">
+                 <h2 class="text-xl font-bold">Confirme sua Presença</h2>
+            </div>
+            
+            <!-- Botão de Confirmação (Inferior Direito) -->
+            <div class="w-full md:w-auto text-center">
+                <!-- Substitua o "#" pelo link do seu formulário de confirmação -->
+                <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="w-full md:w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md shadow-lg text-gray-900 bg-yellow-400 hover:bg-yellow-500 transition-colors duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500"
+                >
+                    RSVP
+                    <svg class="ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

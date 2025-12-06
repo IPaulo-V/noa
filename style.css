@@ -1,0 +1,39 @@
+
+        /* Define as fontes personalizadas */
+        body {
+            font-family: 'Archivo Black', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            font-family: 'Pacifico', cursive;
+        }
+        /* Estilização para o fundo com placeholder de imagem */
+        .convite-fundo {
+            background-image: url('img/fundo.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        /* Estilização para o card principal para legibilidade */
+        .card-convite {
+            background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+            backdrop-filter: blur(10px); /* Efeito de vidro fosco no fundo */
+            position: relative; /* Adicionado para posicionar as imagens filhas */
+        }
+
+        .mickey-left, .mickey-right {
+            position: absolute;
+            top: +300px; /* Metade da altura da imagem para ficar sobre a linha */
+            width: 19%;
+            height: auto;
+        }
+
+        .mickey-left {
+            left: -20px; /* Passa um pouco da borda esquerda */
+        }
+
+        .mickey-right {
+            right: -20px; /* Passa um pouco da borda direita */
+        }
+    
