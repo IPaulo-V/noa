@@ -64,7 +64,7 @@ h1, h2, h3 {
 
     /* Optional: background scroll better on mobile */
     .convite-fundo {
-        background: url('img/fundo-mobile.png') center/cover scroll; /* Define um fundo específico para mobile, evitando bugs de 'fixed' */
+        background: url('img/fundo-mobile.png') center/cover fixed; /* Define um fundo específico para mobile, evitando bugs de 'fixed' */
     }
     
 }
