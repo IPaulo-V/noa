@@ -11,15 +11,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add padding to the bottom of the body to prevent the fixed footer from overlapping content */
+        body {
+            padding-bottom: 140px; /* Adjust this value based on the footer's height */
+        }
+        @media (min-width: 768px) { /* md breakpoint */
+            body {
+                padding-bottom: 96px; /* Adjust for desktop footer height */
+            }
+        }
+    </style>
 </head>
-<body class="convite-fundo min-h-screen flex flex-col">
+<body class="convite-fundo">
 
     <!-- Conteúdo Principal do Convite -->
-    <main class="flex-grow flex items-center justify-center p-4">
+    <main class="flex items-center justify-center p-4 min-h-screen">
         <div class="card-convite w-full max-w-3xl p-8 md:p-12 rounded-lg shadow-xl text-center">
-
-            <img src="img/mickey2.png" alt="Mickey" class="mickey-left">
-            <img src="img/mickey.png" alt="Mickey" class="mickey-right">
 
             <!-- Título do Convite -->
             <h1 class="text-4xl md:text-5xl text-gray-800 mb-6">1° aninho do Noah!</h1>
@@ -44,7 +52,11 @@
     </main>
 
     <!-- Rodapé com Botões de Ação -->
-    <footer class="w-full bg-gray-900/80 text-white p-4 shadow-lg backdrop-filter backdrop-blur-lg">
+    <footer class="fixed bottom-0 left-0 w-full bg-gray-900/80 text-white p-4 shadow-lg backdrop-filter backdrop-blur-lg">
+        
+        <img src="img/mickey2.png" alt="Mickey" class="mickey-left">
+        <img src="img/mickey.png" alt="Mickey" class="mickey-right">
+
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             
             <!-- Botão de Endereço (Inferior Esquerdo) -->

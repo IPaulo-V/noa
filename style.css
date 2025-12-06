@@ -26,9 +26,9 @@ h1, h2, h3 {
 
 /* Mickey – DESKTOP position */
 .mickey-left, .mickey-right {
-    position: absolute;
-    top: 350px;
-    width: 23%;
+    position: absolute; /* Positioned relative to the footer */
+    bottom: 0;          /* Align to the bottom of the footer */
+    width: 150px;       /* Fixed width for better control */
     height: auto;
 }
 
@@ -49,17 +49,15 @@ h1, h2, h3 {
 
     /* Move Mickey higher and shrink images */
     .mickey-left, .mickey-right {
-        top: 380px; 
-        bottom: 3px;     /* Ajuste especial para celular */
-        width: 35%;     /* Maior porque a tela é estreita */
+        width: 120px; /* Slightly smaller for mobile screens */
     }
 
     .mickey-left {
-        left: -19px;
+        left: -25px;
     }
 
     .mickey-right {
-        right: -18px;
+        right: -25px;
     }
 
     /* Optional: background scroll better on mobile */
