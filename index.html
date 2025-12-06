@@ -14,19 +14,22 @@
     <style>
         /* Add padding to the bottom of the body to prevent the fixed footer from overlapping content */
         body {
-            padding-bottom: 140px; /* Adjust this value based on the footer's height */
+            padding-bottom: 140px; /* Espaço para o rodapé em telas pequenas */
         }
         @media (min-width: 768px) { /* md breakpoint */
             body {
-                padding-bottom: 96px; /* Adjust for desktop footer height */
+                padding-bottom: 96px; /* Espaço para o rodapé em telas maiores */
             }
         }
+
+        /* Define a imagem de fundo para o convite */
+       
     </style>
 </head>
 <body class="convite-fundo">
 
     <!-- Conteúdo Principal do Convite -->
-    <main class="flex items-center justify-center p-4 min-h-screen">
+    <main class="flex justify-center p-4 pt-8 md:pt-12">
         <div class="card-convite w-full max-w-3xl p-8 md:p-12 rounded-lg shadow-xl text-center">
 
             <!-- Título do Convite -->
