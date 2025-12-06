@@ -63,10 +63,7 @@ h1, h2, h3 {
 
     /* Optional: background scroll better on mobile */
     .convite-fundo {
-        background-image: url('img/fundo-mobile.png');
-        background-size: cover;
-        background-position: center;
-        background-attachment: scroll; /* evita bug em mobile */
+        background: url('img/fundo-mobile.png') center/cover scroll; /* Define um fundo específico para mobile, evitando bugs de 'fixed' */
     }
     
 }
