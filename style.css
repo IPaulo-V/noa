@@ -33,11 +33,11 @@ h1, h2, h3 {
 }
 
 .mickey-left {
-    left: -20px;
+    left: 20px;
 }
 
 .mickey-right {
-    right: -20px;
+    right: 20px;
 }
 
 @media (max-width: 900px) {
@@ -54,11 +54,11 @@ h1, h2, h3 {
     }
 
     .mickey-left {
-        left: -25px;
+        left: 10px;
     }
 
     .mickey-right {
-        right: -25px;
+        right: 10px;
     }
 
     /* Optional: background scroll better on mobile */
