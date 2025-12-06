@@ -27,7 +27,7 @@ h1, h2, h3 {
 /* Mickey – DESKTOP position */
 .mickey-left, .mickey-right {
     position: absolute;
-    top: 300px;
+    top: 350px;
     width: 23%;
     height: auto;
 }
@@ -40,7 +40,7 @@ h1, h2, h3 {
     right: -20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
     .card-convite {
         margin: 10px;
