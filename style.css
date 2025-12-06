@@ -27,7 +27,7 @@ h1, h2, h3 {
 /* Mickey – DESKTOP position */
 .mickey-left, .mickey-right {
     position: absolute; /* Positioned relative to the footer */
-    bottom: 0;          /* Align to the bottom of the footer */
+    bottom: 40px;       /* Pushes the image 40px up from the bottom of the footer */
     width: 150px;       /* Fixed width for better control */
     height: auto;
 }
@@ -50,6 +50,7 @@ h1, h2, h3 {
     /* Move Mickey higher and shrink images */
     .mickey-left, .mickey-right {
         width: 120px; /* Slightly smaller for mobile screens */
+        bottom: 80px; /* Pushes it even higher on mobile to clear the taller footer */
     }
 
     .mickey-left {
