@@ -4,38 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festa do Noah</title>
-    <!-- Carrega o Tailwind CSS para estilização fácil e responsiva -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Carrega a fonte 'Playfair Display' para um toque elegante -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Add padding to the bottom of the body to prevent the fixed footer from overlapping content */
         body {
-            padding-bottom: 140px; /* Espaço para o rodapé em telas pequenas */
+            padding-bottom: 140px;
         }
-        @media (min-width: 768px) { /* md breakpoint */
+        @media (min-width: 768px) {
             body {
-                padding-bottom: 96px; /* Espaço para o rodapé em telas maiores */
+                padding-bottom: 96px;
             }
         }
 
-        /* Define a imagem de fundo para o convite */
        
     </style>
 </head>
 <body class="convite-fundo">
 
-    <!-- Conteúdo Principal do Convite -->
     <main class="flex justify-center p-4 pt-8 md:pt-12">
         <div class="card-convite w-full max-w-3xl p-8 md:p-12 rounded-lg shadow-xl text-center">
 
-            <!-- Título do Convite -->
             <h1 class="text-4xl md:text-5xl text-gray-800 mb-6">Niver do Noah!</h1>
             
-            <!-- Texto Genérico Central -->
             <div class="text-gray-600 space-y-4 text-base md:text-lg leading-relaxed">
                 <p>
                     Com grande alegria, convidamos você para celebrar um momento inesquecível conosco.
@@ -47,14 +40,12 @@
                 </p>
             </div>
 
-            <!-- Chamada para Ação -->
             <p class="mt-8 text-xl font-bold text-gray-800 animate-pulse">
                 Esperamos você!
             </p>
         </div>
     </main>
 
-    <!-- Rodapé com Botões de Ação -->
     <footer class="fixed bottom-0 left-0 w-full bg-gray-900/80 text-white p-4 shadow-lg backdrop-filter backdrop-blur-lg">
         
         <img src="img/mickey2.png" alt="Mickey" class="mickey-left">
@@ -62,9 +53,8 @@
 
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             
-            <!-- Botão de Endereço (Inferior Esquerdo) -->
             <div class="flex flex-col items-center w-full md:w-auto">
-                <!-- Substitua o "#" pelo link real para o mapa -->
+
                 <a 
                     href="https://maps.app.goo.gl/9fDHysKcF7DJ5e6i8" 
                     target="_blank" 
@@ -79,14 +69,11 @@
                 </a>
             </div>
 
-            <!-- Texto Central -->
             <div class="text-center">
                  <h2 class="text-xl">Confirme sua Presença</h2>
             </div>
             
-            <!-- Botão de Confirmação (Inferior Direito) -->
             <div class="w-full md:w-auto text-center">
-                <!-- Substitua o "#" pelo link do seu formulário de confirmação -->
                 <a 
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeD74eLBQSzCjSVeeqGiE4V2y50Cj8BPFyeyR2lD1CLyLj4SA/viewform" 
                     target="_blank" 
